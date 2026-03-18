@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        // هنا هتحط لينك الـ Cloudflare اللي طلعلك من الـ CMD
+        // كل يوم لما اللينك يتغير، غيره هنا بس واعمل Save
+        const myTunnelLink = "https://fill-oops-costa-eggs.trycloudflare.com"; 
+
+        window.location.href = myTunnelLink;
+    </script>
+</head>
+<body style="background: #111; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif;">
+    <div style="text-align: center;">
+        <h2>جارٍ التحويل لموقعك الضخم...</h2>
+        <p>لو متمش التحويل تلقائياً <a id="manualLink" href="#" style="color: #007bff;">دوس هنا</a></p>
+    </div>
+    <script>
+        document.getElementById('manualLink').href = myTunnelLink;
+    </script>
+</body>
+</html>
